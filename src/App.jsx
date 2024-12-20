@@ -1,6 +1,6 @@
 import { useEffect, useReducer } from "react";
 
-import Header from "./Header";
+import Header from "./components/Header";
 import Main from "./components/Main";
 import Error from "./components/Error";
 import Loader from "./components/Loader";
