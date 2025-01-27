@@ -1,7 +1,4 @@
-import { useQuize } from "../context/QuizContext";
-
-function FinishScrenn() {
-  const { points, maxPossiblePoints, highScore, dispatch }= useQuize();
+function FinishScrenn({ points, maxPossiblePoints, highScore, dispatch }) {
   const percentage = (points / maxPossiblePoints) * 100;
   let emoji;
   if (percentage === 100) emoji = "🥇";
